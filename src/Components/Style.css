@@ -1,0 +1,43 @@
+table{
+    border: 5px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+td{
+    width: 50%;
+}
+th{
+    border: 2px solid red;
+}
+h1{
+    color: orangered;
+}
+.q2{
+    width: 100px;
+    height: 50px;
+    margin-left: 300px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+}
+.q2:hover, .q3:hover{
+    background-color: greenyellow;
+    color: red;
+}
+.q3{
+    width: 150px;
+    height: 50px;
+    
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+}
+.q3output{
+    color: black;
+}

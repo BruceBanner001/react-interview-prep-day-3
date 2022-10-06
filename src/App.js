@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import AxiosAndFetch from './Components/AxiosAndFetch';
+import './Components/Style.css';
+import UseEffect from './Components/UseEffect';
+import UseMemo from './Components/UseMemo';
+import UseReducer from './Components/UseReducer';
+import UseState from './Components/UseState';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <br /><br />
+      <h1>1.Difference between Axios and fetch ?</h1>
+      <AxiosAndFetch />
+      <UseState />
+      <UseEffect />
+      <UseReducer />
+      <UseMemo /><br /><br /><br /><br />
     </div>
   );
 }
