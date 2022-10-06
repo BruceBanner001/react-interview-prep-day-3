@@ -8,7 +8,6 @@ const UseState = () => {
     return (
         <div>
             <h1>2.What is UseState Hook ?(Implementation)</h1>
-            <h3></h3>
             <h2>{myName}</h2>
             <button className='q2' onClick={changeName}>Change</button>
         </div>

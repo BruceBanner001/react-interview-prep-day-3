@@ -1,8 +1,7 @@
 import React, { useMemo, useState } from 'react';
 
 const UseMemo = () => {
-    const [firstCounter, setfirstCounter] = useState(0)
-    const [secondCounter, setsecondCounter] = useState(0)
+    const [firstCounter, setfirstCounter] = useState(0);
     const IncrementOne = () => {
         setfirstCounter(firstCounter + 1);
     }
